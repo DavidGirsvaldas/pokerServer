@@ -1,0 +1,3 @@
+[submodule "pokerGame"]
+	path = pokerGame
+	url = https://github.com/DavidGirsvaldas/pokerGame.git
