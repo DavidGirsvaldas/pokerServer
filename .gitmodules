@@ -1,3 +1,6 @@
 [submodule "pokerGame"]
 	path = pokerGame
 	url = https://github.com/DavidGirsvaldas/pokerGame.git
+[submodule "pokerServer/pokerApp/pokerGame"]
+	path = pokerServer/pokerApp/pokerGame
+	url = https://github.com/DavidGirsvaldas/pokerGame.git
