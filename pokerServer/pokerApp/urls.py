@@ -1,7 +1,7 @@
 from django.urls import path
-from pokerApp import views
+from .api_views import PlayersView
 
 app_name = "pokerApp"
 urlpatterns = [
-    path("get_settings", views.get_settings, name="get_settings")
+    path("players/", PlayersView.as_view(), name="get_players")
 ]
